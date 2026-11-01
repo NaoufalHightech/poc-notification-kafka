@@ -1,0 +1,71 @@
+{
+  "slug": "incident_2022-10-06_binance_bsc_token_hub",
+  "channel": "artificiel-intelligence",
+  "series": "INCIDENT LOG",
+  "language": "fr",
+  "title": "[INCIDENT LOG · 6 oct. 2022] Binance : le pont qui a cru une fausse preuve, 2 millions de BNB créés de nulle part",
+  "description": "6 octobre 2022 : le pont BSC Token Hub de BNB Chain valide des preuves forgées et crée 2 millions de BNB. Reconstitution chronologique de l'incident, de la cause racine (vérification des preuves IAVL) aux conséquences, puis la leçon d'ingénierie.\n\nRigueur : incident réel et public. Les extraits de logs affichés sont des reconstitutions pédagogiques simulées, pas des journaux réels. Les montants divergent selon les sources.\n\nSources :\n- Immunefi, Hack Analysis: Binance Bridge, October 2022 : https://immunefi.com/blog/bug-fix-reviews/hack-analysis-binance-bridge-october-2022/\n- Halborn, Explained: the BNB Chain hack : https://www.halborn.com/blog/post/explained-the-bnb-chain-hack-october-2022\n- SlowMist, analyse de l'attaque : https://slowmist.medium.com/slowmist-an-analysis-of-the-attack-on-bnb-cross-chain-bridge-f7411f33bb2\n- Merkle Science, Hack Track : https://www.merklescience.com/blog/hack-track-analysis-of-the-bnb-smart-chain-exploit\n- The Block, BNB Chain resumes service : https://www.theblock.co/post/175437/biance-bnb-chain-is-back-up-after-bridge-exploit",
+  "tags": [
+    "binance",
+    "bnb chain",
+    "bsc",
+    "token hub",
+    "pont blockchain",
+    "bridge hack",
+    "exploit",
+    "iavl",
+    "merkle proof",
+    "cosmos",
+    "cybersécurité",
+    "post-mortem",
+    "incident log",
+    "artificiel intelligence"
+  ],
+  "category": "Science & Technology",
+  "thumbnail": "assets/visuals/thumbnail.jpg",
+  "video": "build/incident_2022-10-06_binance_bsc_token_hub.mp4",
+  "chapters": [
+    {
+      "time": "0:00",
+      "seconds": 0,
+      "title": "Cold open : le pont dit oui"
+    },
+    {
+      "time": "0:30",
+      "seconds": 30,
+      "title": "Le contexte : un pont entre deux chaînes"
+    },
+    {
+      "time": "1:51",
+      "seconds": 111,
+      "title": "Avant l'attaque : le bruit de fond"
+    },
+    {
+      "time": "2:18",
+      "seconds": 138,
+      "title": "La soirée du 6 octobre"
+    },
+    {
+      "time": "3:29",
+      "seconds": 209,
+      "title": "La suspension de la chaîne"
+    },
+    {
+      "time": "4:07",
+      "seconds": 247,
+      "title": "La cause racine : la preuve forgée"
+    },
+    {
+      "time": "5:11",
+      "seconds": 311,
+      "title": "Les conséquences"
+    },
+    {
+      "time": "5:44",
+      "seconds": 344,
+      "title": "La leçon d'ingénierie"
+    }
+  ],
+  "duration_seconds": 380,
+  "duration": "6:20"
+}

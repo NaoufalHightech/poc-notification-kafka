@@ -1,0 +1,4 @@
+build/
+__pycache__/
+# voix : fichiers locaux (la voix de repère Piper n'est pas versionnée ; la tienne non plus)
+assets/voice/
